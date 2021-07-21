@@ -1,0 +1,19 @@
+/*Por etiqueta*/
+
+p {color: blue;
+    font-size: 30px;
+    }
+/* Class= Se selecciona la etiqueta a la cual se le quiere poener el estilo
+    se pone el class y se le asigna un nombre // .el nombre de la clase*/
+    
+.txt { 
+    color: red;
+}
+
+/* id= Se selcciona la etiqueta a la cual se le va aplicar el
+estilo se pone ID="MAS EL NOMBRE" se debe llamar en la hoja de estilos// #el nombre de la clase*/
+
+#txxt {
+    color: green;
+    font-size: 50px;
+}

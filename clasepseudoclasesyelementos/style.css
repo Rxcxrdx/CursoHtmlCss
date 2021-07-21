@@ -1,0 +1,28 @@
+.main-nav{
+    margin-top: 10px;
+    list-style: none; /* le quita los punticos a las listas*/
+    padding-left: 0px; /*Padding quiere decir un espacion interno en un contenedor*/
+    background-color: black;
+}
+.main-nav__item{
+    display: inline-block; /* poen en horizontal la lista*/
+}
+.main-nav__item a {
+    color: white;
+    padding: 5px;
+    border-radius: 10px; /*Redondear las esquinas*/
+    text-decoration: none; /* le quita los estilos al texto*/
+    background-color: indigo; /* color de fondo al texto*/
+}
+
+.main-nav__item a:hover { /* pseudo clase, se llama con a= se especifico en sitaxis + el comando este caso hover
+    que cambia el color del texto cuando pasa el mause por encima*/
+    color: yellow;
+}
+.main-nav__item a:active { /* pseudo clase cmabia le color del texto cuando se activa, es decir cuando se da click*/ 
+    color: red;
+
+}
+.main-nav__item a::after{
+    content: " / ";
+}

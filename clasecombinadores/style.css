@@ -1,0 +1,6 @@
+div p { 
+color: red;
+
+} /* todas las etiquetas que esten dentro de la etiqueta div se le aplica la modificacion = DECENDIENTE 
+div p {modificacion}  */
+
