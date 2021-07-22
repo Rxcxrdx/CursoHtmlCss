@@ -1,0 +1,31 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+html{
+    font-size: 62.5%;
+    font-family:Helvetica;
+}
+
+.block_element{
+    background-color: green;
+    margin: 1rem;
+    padding: 2rem;
+    
+}
+.nav{
+    background-color: indigo;
+    padding: 2rem;
+    list-style: none;
+    text-align: center;
+    
+}
+.nav li{
+    display: inline-block;
+    font-size: 2rem;
+    margin: 1rem;
+    padding-right: 2rem;
+    padding-left: 2rem;
+    
+}
